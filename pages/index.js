@@ -42,7 +42,7 @@ export async function getStaticProps(){
    client.close();   
    return{
         props:{
-             meetups:
+             meetups:  
              meetups.map((meetup)=>({
                 title:meetup.title,
                 address:meetup.address,
